@@ -31,3 +31,35 @@
     transform: rotate(360deg);
   }
 }
+
+.app-container {
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.no-todos-container {
+  padding-top: 40px;
+}
+
+.todos-container {
+  padding-top: 40px;
+}
+
+.todo-container {
+  display: grid;
+  grid-template-columns: 300px 100px auto;
+}
+
+.todos-ul {
+  display: grid;
+  grid-gap: 24px;
+}
+
+.delete-todo-button-container {
+  position: relative;
+  top: -6px;
+}
+
+li {
+  list-style-type: none;
+}
